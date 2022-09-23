@@ -1,0 +1,12 @@
+<h2 class="title-lg mb">Вопрос</h2>
+
+<p class="mb-sm"><%= @question.body %></p>
+<p>user_id: <b><%= @question.user_id %></b></p>
+
+<p class="mt"><%= link_to "Изменить вопрос", edit_question_path(@question) %></p>
+
+<div>
+    <%= button_to "Удалить вопрос", question_path(@question), method: :delete %>
+</div>
+
+<p class="mt"><%= link_to "Все вопросы", "/questions" %></p>
