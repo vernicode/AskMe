@@ -1,5 +1,10 @@
 body {
+    color: #03071e;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+a, button {
+    color: #dc2f02
 }
 
 .title-lg {
