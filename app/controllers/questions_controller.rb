@@ -22,7 +22,8 @@ class QuestionsController < ApplicationController
     def show
     end
 
-    def index 
+    def index
+        @question = Question.new
         @questions = Question.all
     end
 
